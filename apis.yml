@@ -1,7 +1,29 @@
 aid: pace-revenue
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pace-revenue.png
 name: Pace Revenue
-description: Pace Revenue is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pace Revenue was a London-based revenue management and dynamic pricing
+  platform for hotels and hospitality operators that used machine learning to
+  recommend optimal room rates from real-time demand, market, and booking-pace
+  signals. Founded in 2016 and backed by Speedinvest, Pace was acquired by FLYR
+  in 2023, and its revenue-optimization technology has since been folded into
+  FLYR's hospitality commercial platform. Pace Revenue does not currently
+  publish a public developer portal or an openly documented API specification;
+  developer resources for the combined offering now live behind FLYR's gated
+  developer knowledge base. This profile was surfaced as a Speedinvest portfolio
+  company and enriched by the API Evangelist pipeline; no public machine-readable
+  API surface was found at enrichment time.
 url: https://raw.githubusercontent.com/api-evangelist/pace-revenue/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +31,33 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: flyr
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Hospitality
+- Hotels
+- Revenue Management
+- Dynamic Pricing
+- Machine Learning
+- Travel
+- Pricing
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pace-revenue-domain-security.yml
+- type: Website
+  url: https://flyr.com/pace-revenue/
+- type: DeveloperPortal
+  url: https://developer.flyr.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
