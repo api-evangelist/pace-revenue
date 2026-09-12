@@ -83,3 +83,5 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-parent: flyr-labs
+x-relationship: product
