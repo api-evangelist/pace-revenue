@@ -53,7 +53,7 @@ tags:
 - Hotels
 - Revenue Management
 - Dynamic Pricing
-- Machine-Learning
+- Machine Learning
 - Travel
 - Pricing
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Machine Learning
 - Travel
 - Pricing
+- Machine-Learning
 x-enrichment:
   date: '2026-07-20'
   status: minimal
